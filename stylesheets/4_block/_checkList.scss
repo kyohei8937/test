@@ -1,0 +1,29 @@
+.bl-checkList {
+    margin: 0 auto;
+    width:80%;
+    border: solid 3px #005B73;
+    padding: 0.5em 1em 0.5em 2.3em;
+    position: relative;
+
+    &_title {
+        font-size: 1.2rem;
+        border-bottom:1px solid #005B73;
+    }
+
+    &_items {
+        text-align: left;
+        &_item {
+            line-height: 1.5;
+            padding: 0.5em 0;
+            margin-left: 2em;
+            &::before {
+                font-family: "Font Awesome 5 Free";
+                font-weight: bold;
+                content: "\f00c";
+                position: absolute;
+                left : 1.5em; /*左端からのアイコンまで*/
+                color: #005B73; /*アイコン色*/
+            }
+        }
+    }
+}

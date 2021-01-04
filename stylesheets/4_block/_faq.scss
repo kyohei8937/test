@@ -1,0 +1,39 @@
+.bl-faq {
+	width: 100%;
+    text-align: left;
+    & dl {
+        border: 1px solid #005B73;
+    }
+
+    & dt {
+        color: white;
+        background: #005B73; /* 「Q」タイトルの背景色 */
+        padding: 8px;
+        border-top: 1px solid #005B73;
+        border-bottom: 1px solid #005B73;
+        &:first-child {
+            border-top: none;
+        }
+        &:before {
+            content: "Q.";
+            font-weight: bold;
+            margin-right: 8px;
+        }
+    }
+
+    & dd {
+        padding: 16px 16px 24px 30px;
+        margin: 0;
+        line-height: 140%;
+        &:first-line {
+            font-weight: bold;
+            color: #e25c00;
+        }
+        &:before {
+            content: "A.";
+            font-weight: bold;
+            margin-right: 8px;
+            margin-left: -21px;
+        }
+    }
+}

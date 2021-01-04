@@ -1,0 +1,24 @@
+.el-triangle{
+    width: 0;
+    height: 0;
+    &--up {
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-bottom: 30px solid black;
+    }
+    &--right {
+        border-left: 30px solid black;
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+    }
+    &--left {
+        border-top: 30px solid transparent;
+        border-right: 30px solid black;
+        border-bottom: 30px solid transparent;
+    }
+    &--bottom {
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-top: 30px solid black;
+    }
+}

@@ -1,0 +1,14 @@
+.ly-main{
+    padding-top:120px;
+    padding-bottom:120px;
+    text-align: center;
+}
+
+.ly-contents{
+    max-width: 1230px;
+    padding:15px;
+    margin: 0 auto;
+    &--wide{
+        max-width: 100%;
+    }
+}
