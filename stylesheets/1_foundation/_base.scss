@@ -1,0 +1,20 @@
+html {
+  font-size:20px;
+  @include mobile {
+    font-size: 16px;
+  }
+}
+
+header, body, footer{
+  background-color:white;
+  color:black;
+  font-family: 'メイリオ', Meiryo,'Meiryo UI',YuGothic,'Yu Gothic','Yu Gothic UI','ＭＳ Ｐゴシック','MS PGothic','ＭＳ ゴシック',sans-serif;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align:top;
+}
